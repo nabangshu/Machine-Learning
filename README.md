@@ -9,9 +9,12 @@ The .cpp files were assignments in my Machine Learning course. I implemented the
 - Online_Learning.cpp contains the code for online learning.
 
 # Deep Learning
-Iterated_FGSM and TF2_FGSM contain the FGSM and iterated FGSM adversarial attacks on a simple MLP in Tensorflow 1.0 and Tensorflow 2.0, respectively.
+Iterated_FGSM.py and TF2_FGSM.py contain the FGSM and iterated FGSM adversarial attacks on a simple MLP in Tensorflow 1.0 and Tensorflow 2.0, respectively.
 ### Dependencies for Deep Learning
 ``` python >= 3.0, Tensorflow >= 1.0 (for Iterated_FGSM), and Tensorflow >= 2.0 (for TF2_FGSM) ```
+
+Conv_FGSM.py contains the implementation of a basic convolutional neural network (CNN) and an FGSM attack on that network. It drops the accuracy of the CNN from ~99% to ~55%.
+
 # Extreme Learning Machine
 Vanilla_Extreme contains the code for the vanilla version of Extreme Learning Machines. It uses random input layer weights, and can quickly learn output layer weights using linear regression.
 I am currently working on using Genetic Algorithm to learn the input layer weights. Coming soon.
